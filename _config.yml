@@ -1,5 +1,5 @@
 #BASE_URL: "/"
 #ASSET_PATH: "/assets"
-
+auto: true
 BASE_URL: "/practice"
 ASSET_PATH: "/practice/assets"

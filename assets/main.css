@@ -1,5 +1,6 @@
 @import url('css/list.css');
 @import url('css/list2.css');
+@import url('css/form.css');
 body > h2:first-child {
   margin: 20px;
   padding: 10px;

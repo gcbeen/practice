@@ -3,3 +3,97 @@ layout: default
 title: css那些事 form
 ---
 <h2>{{ page.title }}</h2>
+
+<div class="user_login">
+	<h3>用户登录</h3>
+	<div class="content">
+		<form action="" method="post">
+			<div class="frm_cont userName">
+				<label for="userName">用户名：</label>
+				<input id="userName" type="text" />
+			</div>
+			<div class="frm_cont userPsw">
+				<label for="userPsw">密 码：</label>
+				<input id="userPsw" type="text">
+			</div>
+			<div class="frm_cont validate">
+				<label for="validate">验证码：</label>
+				<input id="validate" type="text">
+				<img src="" alt="">
+			</div>
+			<div class="frm_cont keepLogin">
+				<input id="keepLogin" type="checkbox">
+				<label for="keepLogin">记住我的登录信息</label>
+			</div>
+			<div class="btns">
+				<button class="btn_login" type="submit">登录</button>
+				<a class="reg" href="#">用户注册</a>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<div class="search_box">
+	<h3>站内搜索</h3>
+	<div class="content">
+		<form action="" method="post">
+			<select>
+				<option value="">影视</option>
+				<option value="">日志</option>
+				<option value="">相册</option>
+			</select>
+			<input type="text" value="请输入关键字">
+			<button type="submit">搜索</button>
+			<div class="search_tips">
+				<h4>搜索提示</h4>
+				<ul>
+					<li><a href="#">柯南 538 集</a><span>共有589个项目</span></li>
+					<li><a href="#">柯南剧场版</a><span>共有589个项目</span></li>
+					<li><a href="#">柯南全集</a><span>共有158393个项目</span></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="feedback">
+	<h3>反馈表单</h3>
+	<div class="content">
+		<form action="" method="post">
+			<fieldset class="base_info">
+				<legend>用户信息</legend>
+				<div class="frm_cont userName">
+					<label for="userName">用户名：</label>
+					<input id="userName" type="text" value="">
+				</div>
+				<div class="frm_cont email">
+					<label for="email">电子邮件：</label>
+					<input id="email" type="text" value="@">
+				</div>
+				<div class="frm_cont url">
+					<label for="url">网址：</label>
+					<input id="url" type="text" value="http://">
+				</div>
+			</fieldset>
+
+			<fieldset class="feedback_content">
+				<legend>反馈内容</legend>
+				<div class="frm_cont up_file">
+					<label for="up_file">相关图片：</label>
+					<input id="up_file" type="file">
+					<p class="tips">本系统只支持上传.jpg、.gif、.png图片。</p>
+				</div>
+				<div class="frm_cont msg">
+					<label for="msg">内容：</label>
+					<textarea id="msg" name="" cols="40" rows="4"></textarea>
+					<p class="tips">请输入留言内容！</p>
+				</div>
+			</fieldset>
+			<div class="btns">
+				<button type="submit">提交</button>
+				<button type="reset">重置</button>
+			</div>
+		</form>
+	</div>
+</div>
