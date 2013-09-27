@@ -1,5 +1,5 @@
 .site_nav {
-  width: 100px;
+  width: 520px;
 }
 .site_nav h1 {
   display: none;
@@ -11,14 +11,16 @@
 }
 
 #nav li {
-  margin: 0;
-  padding: 0;
+  float: left;
+  margin: 0 5px;
+  padding: 0 10px;
   height: 22px;
 }
 
 #nav li a {
   display: block;
   height: 100%;
+  width: 100px;
   text-align: center;
   text-decoration: none;
   font: normal 12px/22px "宋体", Verdana,Lucida, Arial, Helvetica, sans-serif;
@@ -29,4 +31,112 @@
 #nav li a:hover {
   color: #000;
   background-color: #E8E8E8;
+}
+
+.clear {
+    clear: both;
+}
+
+.music {
+	width: 200px;
+	border: 1px solid #E8E8E8;
+	margin-top: 10px;
+}
+
+.music * {
+    margin: 0;
+	padding: 0;
+	font: normal 12px/22px "宋体",Verdana,Lucida,Arial,Helvetica,sans-serif;
+}
+
+.music h1 {
+	height: 24px;
+	text-indent: 10px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #999;
+}
+.music ol {
+  height: 220px;
+  list-style: none;
+}
+
+.music li {
+  width: 100%;
+  height: 22px;
+  list-style: none;
+}
+.music li span {
+  color: #CCC;
+}
+.music li span:first-child {
+  margin-left: 5px;
+  display: inline-block;
+  width: 15px;
+}
+
+.chinese_music {
+  width: 300px;
+  margin-top: 10px;
+}
+.chinese_music * {
+  margin: 0;
+  padding: 0;
+  font: normal 14px/22px "宋体",Verdana,Lucida,Arial,Helvetica,sans-serif;
+}
+.chinese_music h4 {
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #E8E8E8;
+  background-color: #00AED6;
+  color: #FFF;
+  font-size: 16px
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 32px;
+}
+.chinese_music ol {
+  list-style: none;
+  border: 1px solid #E8E8E8;
+  height: 465px;
+}
+
+.chinese_music li {
+  width: 100%;
+  height: 50px;
+  list-style: none;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.chinese_music li:last-child {
+  border-bottom: 0;
+}
+
+.chinese_music li div{
+  display: inline-block;
+}
+.chinese_music li div:first-child{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  background-color: #00AED6;
+  color: #FFF;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+}
+
+.chinese_music div span {
+  display: block;
+}
+
+.chinese_music div:last-child * {
+  width: 200px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.chinese_music div:last-child span:first-child {
+  font-weight: bold;
 }
