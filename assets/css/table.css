@@ -1,0 +1,91 @@
+.tableCss * {
+  margin: 0;
+  padding 0;
+  font: normal 12px/1.5em "宋体",Verdana,Lucida,Arial,Helvetica,sans-serif;
+}
+.tableCss table {
+	width: 300px;
+	border: 1px solid #000;
+    color: #000;
+	border-collapse: collapse;
+}
+.tableCss caption {
+  text-align: left;
+}
+.tableCss th {
+  color: #F4F4F4;
+  border: 1px solid #000;
+  background-color: #999;
+}
+.tableCss td {
+	text-align: center;
+	border: 1px solid #000;
+	background-color: #E8E8E8;
+}
+.tableCss tfoot td {
+  text-align: right;
+  background-color: #fff;
+}
+.tableCss colgroup {
+  width: 180px;
+  color: #f00;
+}
+
+.tableCss tr > td + td {
+	color: #f00;
+}
+.tableCss table tr:nth-of-type(2n) > td {
+   background-color: #cdcdcd
+}
+
+.calendar {
+  margin: 10px 0 0 10px;
+}
+.calendar * {
+  margin: 0;
+  padding: 0;
+  font: normal 12px/1.5em "宋体",Arial,Verdana,Lucida,Helvetica,sans-serif;
+}
+.calendar table {
+  width: 175px;
+  border-collapse: collapse;
+  border: 1px solid #DCDCDC;
+}
+.calendar caption {
+  	text-align: left;
+	height: 24px
+	color: #F32600;
+}
+.calendar td,
+.calendar th {
+  width: 25px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid #DCDCDC;
+}
+.calendar th {
+  color: #000;
+  background-color: #EEE;
+}
+.calendar td.current {
+  font-weight: bold;
+  color: #FFF;
+  background-color: #999;
+}
+.calendar table tr>td.last_month,
+.calendar table tr>td.next_month {
+  color: #DFDFDF;
+}
+.calendar tr>td:first-child,
+.calendar tr>td:last-child {
+  color: #B3222B;
+  background-color: #F8F8F8;
+}
+.calendar tr>td+td {
+  color: #333;
+  background-color:#FFF;
+}
+col.day_off {
+  color: #B3222B;
+  background-color: #F8F8F8;
+}
